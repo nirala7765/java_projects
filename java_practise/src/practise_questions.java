@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.File;
 
 import static java.lang.StrictMath.tan;
 
@@ -179,18 +180,37 @@ public class practise_questions {
 
         //40.Write a Java program to create and display unique three-digit number using 1, 2, 3, 4.
         // Also count how many three-digit numbers are there.
-         int amount =0;
-         for (int i =1;i<=4;i++){
-             for (int j =1;j<=4;j++){
-                 for (int k =1;k<=4;k++){
-                     if (k !=i && k !=j && i !=j){
-                         amount++;
-                         System.out.println(i + ""+j+""+k);
-                     }
-                 }
-             }
-         }
-        System.out.println("Total number of the three-digit is : "+amount);
+//         int amount =0;
+//         for (int i =1;i<=4;i++){
+//             for (int j =1;j<=4;j++){
+//                 for (int k =1;k<=4;k++){
+//                     if (k !=i && k !=j && i !=j){
+//                         amount++;
+//                         System.out.println(i + ""+j+""+k);
+//                     }
+//                 }
+//             }
+//         }
+//        System.out.println("Total number of the three-digit is : "+amount);
+
+
+        //problem -Write a Java program that accepts an integer (n) and computes the value of n+nn+nnn.
+
+//        int n;
+//        char s1,s2,s3;
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("enter the number: ");
+//        n= sc.nextInt();
+//        System.out.printf("%d + %d%d + %d%d%d\n  ", n,n,n,n,n,n);
+            //probmem-Write a Java program to find the size of a specified file.
+//        System.out.println("/home/students/abc.txt  : " + new File("abc.txt").length() + " bytes");
+//        System.out.println("/home/students/test.txt : " + new File("test.txt").length() + " bytes");
+
+        //problem:-display system time
+        System.out.format("\nCurrent Date time: %tc%n\n", System.currentTimeMillis());
+
+
+
 
 
 

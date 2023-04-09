@@ -1,6 +1,7 @@
 import java.util.Arrays;
 public class array_practise {
     public static void main(String[] args) {
+
 /*
         int [] marks ; //declaration
         marks = new int[5];  //memory allocation
